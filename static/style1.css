@@ -1,0 +1,54 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    /* background-image: url("/images/lawrence-kayku-frWOcVisp8U-unsplash.jpg"); */
+    background-color: rgb(3, 0, 20);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-txt{
+    color: white;
+    font-size: 50px;
+}
+
+.main-container{
+    width: 90vw;
+    min-height: 80vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    border: 2px solid rgba(41, 34, 34, 0.5);
+    backdrop-filter: blur(3px);
+}
+
+.main-container p{
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.main-container img{
+    min-height: 40vh;
+    width: 70vw;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
